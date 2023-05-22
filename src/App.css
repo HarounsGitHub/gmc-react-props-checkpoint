@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style the card */
+.card {
+  height: 100%;
+  /* margin: 2em; Add top margin for spacing */
+  padding: 1.5em 0.5em 0.5em; /* Apply padding for spacing */
+  border-radius: 2em; /* Round the corners */
+  text-align: center; /* Center the text */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Apply a subtle box shadow */
+  max-width: 500px;
+}
+
+/* Style the image within the card */
+.card img {
+  width: 300px; /* Reduce the image width */
+  border-radius: 50%; /* Make the image circular */
+  margin: 0 auto; /* Center the image horizontally */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Apply a subtle box shadow */
+}
+
+/* Style the card title */
+.card .card-title {
+  font-weight: 700; /* Set the title font weight to bold */
+  font-size: 1.5em; /* Increase the title font size */
+}
+
+.card .btn {
+  border-radius: 2em;
+  background-color: teal;
+  color: #ffffff; /* Set the text color to white */
+  padding: 0.2em 1.3em;
+  /* margin: 18px; */
+  font-size: 25px; /* Set the text size */
+}
+.card .btn:hover {
+  background-color: rgba(0, 128, 128, 0.7);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling to crop some of profile picture the contour */
+/* .image-container {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.image-container img {
+  clip-path: inset(5px);
+  padding: 10px;
+  margin: 5px;
+} */
